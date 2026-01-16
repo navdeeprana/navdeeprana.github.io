@@ -1,0 +1,36 @@
+---
+title : CV
+format:
+  html:
+    other-links:
+      - text: Google scholar
+        href: https://scholar.google.com/citations?user=0kxzpUUAAAAJ
+      - text: ORCID
+        href: https://orcid.org/0000-0002-4432-3982
+---
+
+# Academic Positions and Education
+
+- **Postdoctoral Fellow**\
+  Max Planck Institute for Dynamics and Self-Organization, Göttingen, Germany\
+  From Jan. 2022 -
+
+- **Senior Research Fellow**\
+  Tata Institute of Fundamental Research, Hyderabad, India\
+  Mar. 2021 - Dec. 2021
+
+- **Integrated Masters and Ph. D. in Physics**\
+  Tata Institute of Fundamental Research, Hyderabad, India\
+  Aug. 2014 -- Feb. 2021
+
+- **Bachelor of Science (Physics Honours)**\
+  Government Degree College Dharamshala, India\
+  June 2010 -- Mar. 2013
+
+# Industry Collaboration
+
+- During my Ph.D., I collaborated closely with the NVIDIA cuFFTMp team. Together with my advisor, Prof. Prasad Perlekar, and my colleague, Dr. Vikash Pandey, we developed an in-house, MPI parallel, multi-GPU solver, named **FLUID3D**, that is capable of numerically integrating a variety of fluid dynamical systems. We further provided constructive feedback on the multi-GPU FFT software that was concurrently under development. An account describing the scaling and performance of **FLUID3D** for 3D inertial turbulence for system sizes upto $8192^3$ grid points distributed over $1024$ GPUs is available [here](https://developer.nvidia.com/blog/multinode-multi-gpu-using-nvidia-cufftmp-ffts-at-scale/).
+
+# Professional Services
+
+-   Reviewer for Physical Review Letters, Physical Review E, and Physical Review Fluids

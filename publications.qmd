@@ -1,0 +1,67 @@
+---
+title : Publications
+---
+
+Here's a list of my publications. You can also find an auto populated list of my [arXiv](publications.qmd#sec-arxiv) preprints below.
+
+Total Publications : 11, Published : 10, Under review : 1, **\*** : Equal first author
+
+- **Non-reciprocal mixtures in suspension: the role of hydrodynamic interactions**\
+  Giulia Pisegna, **NR**, Ramin Golestanian, and Suropriya Saha.\
+  [arxiv:2501.01330 (2025)](https://arxiv.org/abs/2501.01330)
+
+- **Enhanced Stability and Chaotic Condensates in Multispecies Nonreciprocal Mixtures**\
+  Laya Parkavousi, **NR\***, Ramin Golestanian, and Suropriya Saha.\
+  [Physical Review Letters 134, 148301 (2025)](https://doi.org/10.1103/PhysRevLett.134.148301)
+
+- **Defect interactions in the nonreciprocal Cahn-Hilliard model**\
+  **NR** and Ramin Golestanian\
+  [New Journal of Physics 26, 123008 (2024)](https://doi.org/10.1088/1367-2630/ad9859)
+
+- **Inertia drives concentration-wave turbulence in swimmer suspensions**\
+  Purnima Jain, **NR**, Sriram Ramaswamy and Prasad Perlekar\
+  [Physical Review Letters 133, 158302 (2024)](https://doi.org/10.1103/PhysRevLett.133.158302)
+
+- **Defect solutions of the nonreciprocal Cahn-Hilliard model: Spirals and targets**\
+  **NR** and Ramin Golestanian\
+  [Physical Review Letters 133, 078301 (2024)](https://doi.org/10.1103/PhysRevLett.133.078301), On the cover of PRL
+
+- **Defect turbulence in a dense suspension of polar, active swimmers**\
+  **NR**, Rayan Chatterjee, Sunghan Ro, Dov Levine, Sriram Ramaswamy, and Prasad Perlekar\
+  [Physical Review E 109, 024603 (2024)](https://doi.org/10.1103/PhysRevE.109.024603)
+
+- **Effect of temperature on the growth characteristics of motile and non-motile Escherichia coli MG1655 colonies on hard agar**\
+  Gupta Akshi, **NR\***, Binil Jacob, Samrat, Ninad Mehendale, Debjani Paul, and Prasad Perlekar\
+  [Indian Journal of Physics 96, 2613 (2022)](https://doi.org/10.1007/s12648-022-02370-8){}
+
+- **Phase ordering, topological defects, and turbulence in the three-dimensional incompressible Toner-Tu equation**\
+  **NR** and Prasad Perlekar\
+  [Physical Review E 105, L032603 (2022)](https://doi.org/10.1103/PhysRevE.105.L032603)
+
+- **Inertia Drives a Flocking Phase Transition in Viscous Active Fluids**\
+  Rayan Chatterjee, **NR**, R. Aditi Simha, Prasad Perlekar, and Sriram Ramaswamy\
+  [Physical Review X 11, 031063 (2021)](http://doi.org/10.1103/PhysRevX.11.031063)
+
+- **Coarsening in the two-dimensional incompressible Toner-Tu equation: Signatures of turbulence**\
+  **NR** and Prasad Perlekar\
+  [Physical Review E 102, 032617 (2020)](http://doi.org/10.1103/PhysRevE.102.032617)
+
+- **Spreading of nonmotile bacteria on a hard agar plate: Comparison between agent-based and stochastic simulations**\
+  **NR**, Pushpita Ghosh, and Prasad Perlekar\
+  [Physical Review E 96, 052403 (2017)](http://doi.org/10.1103/PhysRevE.96.052403)
+
+# arXiv {#sec-arxiv}
+
+<div id="arxivfeed"></div>
+<script type="text/javascript">
+var arxiv_format = "arxiv";
+var arxiv_authorid = "0000-0002-4432-3982";
+var arxiv_max_entries = 0;
+var arxiv_includeSubjects = 0;
+var arxiv_includeSummary = 1;
+var arxiv_includeTitle = 0;
+var arxiv_includeComments = 0;
+var arxiv_includeJournalRef = 0;
+var arxiv_includeJournalDOI = 1;
+</script>
+<script type="text/javascript" src="https://arxiv.org/js/myarticles.js"></script>
