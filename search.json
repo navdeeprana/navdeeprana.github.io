@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "blog/002-stochastic-calculus.html",
+    "href": "blog/002-stochastic-calculus.html",
+    "title": "Stochastic calculus",
+    "section": "",
+    "text": "Stochastic differential equations\nConsider the following Stochastic equation\n\\[\\begin{align}\n\\dot{x}(t) = f(x) + g(x) \\eta(t),\n\\end{align}\\] where \\(\\eta(t)\\) is an idealized Gaussian noise."
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Writings",
+    "section": "",
+    "text": "Stochastic calculus\n\n\nIto vs. Stratanovich\n\n\n\n\n\nNov 16, 2022\n\n\nNavdeep Rana\n\n1 min\n\n11/16/22, 9:36:32 PM\n\n\n\n\n\n\n\n\n\n\n\n\nOnsager reciprocal relations\n\n\nA discussion on\n\n\n\n\n\nNov 15, 2022\n\n\nNavdeep Rana\n\n6 min\n\n11/15/22, 6:14:13 PM\n\n\n\n\n\n\n\n\n\n\n\n\nDesigning a simulation\n\n\nA deep dive into designing a simulation with Julia\n\n\n\n\n\nNov 14, 2022\n\n\nNavdeep Rana\n\n3 min\n\n11/14/22, 7:29:55 AM\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "todo.html",
+    "href": "todo.html",
+    "title": "Navdeep Rana",
+    "section": "",
+    "text": "provide cv as a download\nresearch summaries"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Navdeep Rana",
+    "section": "",
+    "text": "Hi there, I am Navdeep Rana. I am a physicist currently working as a postdoctoral fellow at MPI-DS, Göttingen, Germany. My research interests lie broadly in the field of soft condensed matter physics. In particular I am interested in problems related to active matter, turbulence, population dynamics of growing bacterial colonies, and high-performance computing. Here is my CV and here are my research interests.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites. \\(\\newcommand{bm}[1]{\\boldsymbol{#1}}\\)"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Here’s a list of my publications. You can also find an auto populated list of my arXiv preprints below.\nTotal Publications : 11, Published : 10, Under review : 1, * : Equal first author\n\nNon-reciprocal mixtures in suspension: the role of hydrodynamic interactions\nGiulia Pisegna, NR, Ramin Golestanian, and Suropriya Saha.\narxiv:2501.01330 (2025)\nEnhanced Stability and Chaotic Condensates in Multispecies Nonreciprocal Mixtures\nLaya Parkavousi, NR*, Ramin Golestanian, and Suropriya Saha.\nPhysical Review Letters 134, 148301 (2025)\nDefect interactions in the nonreciprocal Cahn-Hilliard model\nNR and Ramin Golestanian\nNew Journal of Physics 26, 123008 (2024)\nInertia drives concentration-wave turbulence in swimmer suspensions\nPurnima Jain, NR, Sriram Ramaswamy and Prasad Perlekar\nPhysical Review Letters 133, 158302 (2024)\nDefect solutions of the nonreciprocal Cahn-Hilliard model: Spirals and targets\nNR and Ramin Golestanian\nPhysical Review Letters 133, 078301 (2024), On the cover of PRL\nDefect turbulence in a dense suspension of polar, active swimmers\nNR, Rayan Chatterjee, Sunghan Ro, Dov Levine, Sriram Ramaswamy, and Prasad Perlekar\nPhysical Review E 109, 024603 (2024)\nEffect of temperature on the growth characteristics of motile and non-motile Escherichia coli MG1655 colonies on hard agar\nGupta Akshi, NR*, Binil Jacob, Samrat, Ninad Mehendale, Debjani Paul, and Prasad Perlekar\nIndian Journal of Physics 96, 2613 (2022)\nPhase ordering, topological defects, and turbulence in the three-dimensional incompressible Toner-Tu equation\nNR and Prasad Perlekar\nPhysical Review E 105, L032603 (2022)\nInertia Drives a Flocking Phase Transition in Viscous Active Fluids\nRayan Chatterjee, NR, R. Aditi Simha, Prasad Perlekar, and Sriram Ramaswamy\nPhysical Review X 11, 031063 (2021)\nCoarsening in the two-dimensional incompressible Toner-Tu equation: Signatures of turbulence\nNR and Prasad Perlekar\nPhysical Review E 102, 032617 (2020)\nSpreading of nonmotile bacteria on a hard agar plate: Comparison between agent-based and stochastic simulations\nNR, Pushpita Ghosh, and Prasad Perlekar\nPhysical Review E 96, 052403 (2017)\n\n\narXiv"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Academic Positions and Education\n\nPostdoctoral Fellow\nMax Planck Institute for Dynamics and Self-Organization, Göttingen, Germany\nFrom Jan. 2022 -\nSenior Research Fellow\nTata Institute of Fundamental Research, Hyderabad, India\nMar. 2021 - Dec. 2021\nIntegrated Masters and Ph. D. in Physics\nTata Institute of Fundamental Research, Hyderabad, India\nAug. 2014 – Feb. 2021\nBachelor of Science (Physics Honours)\nGovernment Degree College Dharamshala, India\nJune 2010 – Mar. 2013\n\n\n\nIndustry Collaboration\n\nDuring my Ph.D., I collaborated closely with the NVIDIA cuFFTMp team. Together with my advisor, Prof. Prasad Perlekar, and my colleague, Dr. Vikash Pandey, we developed an in-house, MPI parallel, multi-GPU solver, named FLUID3D, that is capable of numerically integrating a variety of fluid dynamical systems. We further provided constructive feedback on the multi-GPU FFT software that was concurrently under development. An account describing the scaling and performance of FLUID3D for 3D inertial turbulence for system sizes upto \\(8192^3\\) grid points distributed over \\(1024\\) GPUs is available here.\n\n\n\nProfessional Services\n\nReviewer for Physical Review Letters, Physical Review E, and Physical Review Fluids"
+  },
+  {
+    "objectID": "research.html#high-performance-computing",
+    "href": "research.html#high-performance-computing",
+    "title": "My research interests [WIP]",
+    "section": "High performance computing",
+    "text": "High performance computing"
+  },
+  {
+    "objectID": "research.html#population-dynamics",
+    "href": "research.html#population-dynamics",
+    "title": "My research interests [WIP]",
+    "section": "Population dynamics",
+    "text": "Population dynamics"
+  },
+  {
+    "objectID": "research.html#turbulence",
+    "href": "research.html#turbulence",
+    "title": "My research interests [WIP]",
+    "section": "Turbulence",
+    "text": "Turbulence"
+  },
+  {
+    "objectID": "blog/001-onsager-reciprocal-relations.html",
+    "href": "blog/001-onsager-reciprocal-relations.html",
+    "title": "Onsager reciprocal relations",
+    "section": "",
+    "text": "Onsager reciprocal relations is a general statement about the irreversible processes. ORR are an application of two fundamental laws of equilibrium statistical mechanics to non-equilibrium systems which are not far away from the equilibrium. The two fundamental laws are : Boltzmann Distribution and the principle of time reversal symmetry."
+  },
+  {
+    "objectID": "blog/001-onsager-reciprocal-relations.html#examples",
+    "href": "blog/001-onsager-reciprocal-relations.html#examples",
+    "title": "Onsager reciprocal relations",
+    "section": "Examples",
+    "text": "Examples\n\nSeeback and Peltier effects\nWhen a temperature gradient is applied across a material, an electric potential difference arises between the two ends. This phenomena is called the Seeback effect. The relation between the temperature gradient \\(\\Delta T\\) and the potential difference \\(\\Delta V\\) is [ V = - S T, ] where \\(S\\) is the Seeback coefficient. The opposite phenomena, where a potential difference sets up a temperature gradient in the system is called the Peltier effect. [ = (_A - _B) I ] The Seeback and Peltier coefficients are related to each other as [ = T S ]\n\n\nInteracting molecular species\nConsider two interacting non-conserved order-parameter fields \\(\\phi_{1}(\\symbf{r},t)\\) and \\(\\phi_{2}(\\symbf{r},t)\\) with the following Landau-Ginzburg free energy form \\[\\begin{align}\\label{eq:fe}\n    \\mathcal{F} = \\int d^{d}r \\left[\n        \\frac{a}{2}\\left(\\phi_{1}^{2} + \\phi_{2}^{2}\\right)\n        + \\frac{b}{4}\\left(\\phi_{1}^{4} + \\phi_{4}^{2}\\right)\n        + \\frac{K}{2}\\left(|\\nabla\\phi_{1}|^{2} + |\\nabla\\phi_{2}|^{2}\\right)\n        + \\chi \\phi_{1}\\phi_{2}\n    \\right],\n\\end{align}\\] where \\(\\chi\\phi_{1}\\phi_{2}\\) is the interaction term. Further, we have chosen identical doubled well potential for both \\(\\phi_{1}\\) and \\(\\phi_{2}\\). In principle, the exact form of the potential could vary, which can be modeled via choosing different \\(a\\) and \\(b\\) for \\(\\phi_{1}\\) and \\(\\phi_{2}\\). The equations of motion for \\(\\phi_{i}\\)’s are \\(\\dot{\\phi_{i}} =\n-\\frac{\\delta F}{\\delta \\phi_{i}}\\) implies \\[\\begin{align}\\label{eq:phi_dynamics}\n    \\dot{\\phi_{1}} = -\\frac{\\delta F}{\\delta \\phi_{1}} &= K \\nabla^{2}\\phi_{1} - \\left(a + b \\phi_{1}^{2}\\right)\\phi_{1} - \\chi \\phi_{2}\\\\\n    \\dot{\\phi_{2}} = -\\frac{\\delta F}{\\delta \\phi_{2}} &= K \\nabla^{2}\\phi_{2} - \\left(a + b \\phi_{2}^{2}\\right)\\phi_{2} - \\chi \\phi_{1},\n\\end{align}\\] where the coefficient of the cross terms \\(\\chi\\) is the same.\n\n\nLiquid Crystals"
+  },
+  {
+    "objectID": "blog/001-onsager-reciprocal-relations.html#proof",
+    "href": "blog/001-onsager-reciprocal-relations.html#proof",
+    "title": "Onsager reciprocal relations",
+    "section": "Proof",
+    "text": "Proof\nConsider a statistical system described by a set of \\(N\\) variables \\(\\left\\{x_{i};~i =\n1,2,\\ldots,N\\right\\}\\), with \\(x_i \\equiv x_i^{\\circ}\\) at the equilibrium. If the system is perturbed to a state that is not far from the equilibrium, it will relax back to it’s equilibrium state, setting up fluxes for various \\(\\left\\{x_{i}\\right\\}\\). Assuming that we are not far away from the equilibrium, we can write down the following linear flux-force relation \\[\\begin{align}\\label{eq:forceflux}\n    \\dot{x_{i}} = \\Gamma_{ij} X_{j},\n\\end{align}\\] we will shortly describe what \\(X_{j}\\) are. We are interested in calculating average values of various quantities, for example \\(x_{i}\\), \\(x_{i} X_{j}\\). Since we are not far from equilibrium and the system is relaxing towards its equilibrium state, we can compute these averages using the machinery of equilibrium statistical mechanics. Essentially, the probability of a fluctuation which takes the system out of equilibrium is proportional to the number of microstates accessible by that fluctuation i.e. \\[ P(\\left\\{x_{i}\\right\\}) \\propto \\Omega(\\left\\{x_{i}\\right\\}).\\] Using the Boltzmann relation \\(S = k \\ln{\\Omega}\\), we get \\(P\\left(\\left\\{x_{i}\\right\\}\\right) \\propto e^{\\Delta S/k}\\) where \\(\\Delta S\\) is the change in entropy. We have \\[\\begin{align}\n    \\Delta S &= S\\left(x_{i}\\right) - S\\left(x^{\\circ}_{i}\\right) \\\\\n             &= \\left(\\frac{\\partial S}{\\partial x_{i}}\\right)_{x_{i}=x_{i}^{\\circ}}\\Delta x_{i} \\\\\n             &+ \\frac{1}{2}\\left(\\frac{\\partial^{2} S}{\\partial x_{i}x_{j}}\\right)_{x_{i,j}=x_{i,j}^{\\circ}}\\Delta x_{i} \\Delta x_{j},\n\\end{align}\\] where \\(\\Delta x_{i} = x_{i} - x_{i}^{\\circ}\\). Since the entropy is maximum at the equilibrium, the first derivative vanishes. We then have \\[\\begin{align}\\label{eq:deltaS}\n    \\Delta S &= -\\beta_{ij}\\Delta x_{i} \\Delta x_{j},\n\\end{align}\\] where we have defined \\[\\begin{align}\n    \\beta_{ij} = -\\beta_{ji} \\equiv \\frac{1}{2}\\left(\\frac{\\partial^{2} S}{\\partial x_{i}x_{j}}\\right)_{x_{i,j}=x_{i,j}^{\\circ}}\n\\end{align}\\] From \\(\\eqref{eq:deltaS}\\), the driving force is defined as \\[\\begin{align}\n    X_{i} = \\lim_{\\Delta x_{i} \\rightarrow 0} \\frac{\\Delta S}{\\Delta x_{i}} = - \\beta_{ij}\\Delta x_{j}\n\\end{align}\\]\nWe have Q: Why can you still use the Boltzmann average here? \\[\\begin{align}\n    \\left&lt; x_{i} X_{j}\\right&gt;=\\frac{\\int_{-\\infty}^{\\infty}x_{i} X_{j} e^{\\Delta S /k}\\prod_{i} d x_{i}}{\\int_{-\\infty}^{\\infty} e^{\\Delta S /k} \\prod_{i} d x_{i}}\n\\end{align}\\] \\[\\begin{align}\\label{eq:avexi}\n    \\left&lt; x_{i}\\right&gt;=x_{i}^{\\circ}=\\frac{\\int_{-\\infty}^{\\infty}x_{i} e^{\\Delta S /k}\\prod_{i} d x_{i}}{\\int_{-\\infty}^{\\infty} e^{\\Delta S /k} \\prod_{i} d x_{i}}\n\\end{align}\\] Differentiating \\(\\eqref{eq:avexi}\\) with respect to \\(x_{j}^{\\circ}\\) we arrive at\n\\[\\left&lt; x_{i} X_{j}\\right&gt;=-k \\delta_{ij}\\]\nQ: What is the point of time flow when it is irreversible. Or reversible? From time-reversibility and homogeneity we have\n\\[\\begin{align}\\label{eq:avexi}\n    \\left&lt;x_{i}(t)x_{j}(t+s)\\right&gt;\n        &= \\left&lt;x_{i}(t)x_{j}(t-s) \\right&gt; \\\\\n        &= \\left&lt;x_{i}(t+s)x_{j}(t) \\right&gt;\n\\end{align}\\]\nSubtracting \\(\\left&lt;x_{i}(t)x_{j}(t)\\right&gt;\\) from both sides and taking the limit \\(s\\rightarrow0\\) we get the following\n\\[\\begin{align}\n    \\lim_{s\\rightarrow0}\\left&lt;x_{i}(t)\\left[x_{j}(t+s)-x_{j}(t)\\right]\\right&gt;\n    &= \\lim_{s\\rightarrow0}\\left&lt;\\left[x_{i}(t+s)-x_{i}(t)\\right]x_{j}(t)\\right&gt; \\\\\n    \\left&lt;x_{i}(t)\\dot{x_{j}}(t)\\right&gt; &= \\left&lt;\\dot{x_{i}}(t)x_{j}(t) \\right&gt; \\\\\n\\end{align}\\] Using \\(\\eqref{eq:forceflux}\\) we arrive at \\[\\begin{align}\\label{eq:trsresult}\n    \\Gamma_{jl}\\left&lt;x_{i}(t)X_{l}(t)\\right&gt; &= \\Gamma_{il}\\left&lt;x_{j}(t)X_{l}(t)\\right&gt; \\\\\n\\end{align}\\]\nTime reversibility will only take us this far, to proceed further, we need to compute \\(\\left&lt;x_{i}(t)X_{j}(t)\\right&gt;\\).Using the above expression in \\(\\eqref{eq:trsresult}\\) we get \\[\\begin{align}\\label{eq:avexi}\n    \\Gamma_{ij} = \\Gamma_{ji},\n\\end{align}\\] which are the Onsager Reciprocal relations.\n\nOnsager Symmetry relations as a Fluctuation-Dissipation Theorem\nSince the Symmetry of the kinetic coefficients is derived from the fundamental hypothesis of the equilibrium statistical mechanics. It can be viewed as a relation between the systematic behaviour of the system to a Fluctuation with the random part. To elaborate, the admittance is derived from the properties of the fluctuations.\n\n\nMinimal way to break ORR\nLet’s add general linear terms to the equations of motion of \\(\\phi_{1}\\) and \\(\\phi_{2}\\) \\[\\begin{align}\\label{eq:fe}\n    \\dot{\\phi_{1}} &= K \\nabla^{2}\\phi_{1} - \\left(a + b \\phi_{1}^{2}\\right)\\phi_{1} - \\chi \\phi_{2} + A \\phi_{1} + B \\phi_{2}\\\\\n    \\dot{\\phi_{2}} &= K \\nabla^{2}\\phi_{2} - \\left(a + b \\phi_{2}^{2}\\right)\\phi_{2} - \\chi \\phi_{1} + C \\phi_{1} + D \\phi_{2}.\n\\end{align}\\] Since all our coefficients are phenomenological, we can combine the \\(A,D\\) terms with the \\(a\\) terms and rewrite the equations as \\[\\begin{align}\\label{eq:fe}\n    \\dot{\\phi_{1}} &= K \\nabla^{2}\\phi_{1} - \\left(a_{1} + b \\phi_{1}^{2}\\right)\\phi_{1} + \\left(-\\chi + B\\right) \\phi_{2} \\\\\n    \\dot{\\phi_{2}} &= K \\nabla^{2}\\phi_{2} - \\left(a_{2} + b \\phi_{2}^{2}\\right)\\phi_{2} + \\left(-\\chi + C\\right) \\phi_{1},\n\\end{align}\\] where \\(a_{1} = a + A\\) and \\(a_{2} = a + D\\). Further, rewriting in terms of \\(\\overline{\\chi} = -\\chi + \\frac{B}{2} +\n\\frac{C}{2}\\) and \\(\\alpha = \\frac{B}{2} - \\frac{C}{2}\\), we get \\[\\begin{align}\\label{eq:fe}\n    \\dot{\\phi_{1}} &= K \\nabla^{2}\\phi_{1} + \\left(a_{1} + b \\phi_{1}^{2}\\right)\\phi_{1} + \\left(\\overline{\\chi} + \\alpha\\right) \\phi_{2} \\\\\n    \\dot{\\phi_{2}} &= K \\nabla^{2}\\phi_{2} + \\left(a_{2} + b \\phi_{2}^{2}\\right)\\phi_{2} + \\left(\\overline{\\chi} - \\alpha\\right) \\phi_{1}.\n\\end{align}\\] Notice that the structure of the terms except the \\(\\alpha\\) terms is exactly identical to \\(\\eqref{eq:phi_dynamics}\\). Thus, the minimal way to break the ORR relations for systems which are amenable to a Landau-Ginzburg like free energy description is by adding antisymmetric terms."
+  },
+  {
+    "objectID": "blog/000-designing-a-simulation.html#grid",
+    "href": "blog/000-designing-a-simulation.html#grid",
+    "title": "Designing a simulation",
+    "section": "Grid",
+    "text": "Grid\nWe begin by creating an abstract grid type with one type parameter, which defines the precision of data residing on the grid. In our case, we are dealing with a real density field so our data could be a Float. However, for different physical models the precision or base data type could be different. For example, for Ising model, the field is a Spin field, which is easily represented by Bool or a Int8.\nabstract type AbstractGrid{T} end\nWhat makes up a grid? Well we need to know its extents, the step size, the range of x, y values possible. You can ask, what happened to the boundary conditions, and I would argue that it is a property of the data/variables that reside on the grid, not the grid itself so we take care of it while handling data"
+  }
+]
