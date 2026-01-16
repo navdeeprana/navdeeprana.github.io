@@ -4,7 +4,19 @@ title : Publications
 
 Here's a list of my publications. You can also find an auto populated list of my [arXiv](publications.qmd#sec-arxiv) preprints below.
 
-Total Publications : 11, Published : 10, Under review : 1, **\*** : Equal first author
+Total Publications : 14, Published : 12, Under review : 2, **\*** : Equal first author
+
+- **Efficient Pseudo-spectral Algorithms for Statistical Field Theories**\
+  Martin Kjøllesdal Johnsrud and **NR**\
+  [arXiv 2511.22510 (2025)](https://arxiv.org/abs/2511.22510)
+
+- **Disorder to order transition in 1D nonreciprocal Cahn-Hilliard nodel**\
+  **NR** and Ramin Golestanian\
+  [arXiv 2510.11580 (2025)](https://arxiv.org/abs/2510.11580)
+
+- **Instabilities and turbulence in extensile swimmer suspensions**\
+  Purnima Jain, **NR**, Roberto Benzi, and Prasad Perlekar.
+  [Physical Review Fluids 10, 114602 (2025)](https://doi.org/10.1103/32td-zfcn)
 
 - **Non-reciprocal mixtures in suspension: the role of hydrodynamic interactions**\
   Giulia Pisegna, **NR**, Ramin Golestanian, and Suropriya Saha.\
