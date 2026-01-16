@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Navdeep Rana</title>
+<link>https://navdeeprana.github.io/blog/</link>
+<atom:link href="https://navdeeprana.github.io/blog/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.8.24</generator>
+<lastBuildDate>Wed, 16 Nov 2022 20:36:32 GMT</lastBuildDate>
+<item>
+  <title>Stochastic calculus</title>
+  <dc:creator>Navdeep Rana</dc:creator>
+  <link>https://navdeeprana.github.io/blog/002-stochastic-calculus.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="stochastic-differential-equations" class="level1">
+<h1>Stochastic differential equations</h1>
+<p>Consider the following Stochastic equation</p>
+<p><img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Balign%7D%0A%5Cdot%7Bx%7D(t)%20=%20f(x)%20+%20g(x)%20%5Ceta(t),%0A%5Cend%7Balign%7D"> where <img src="https://latex.codecogs.com/png.latex?%5Ceta(t)"> is an idealized Gaussian noise.</p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://navdeeprana.github.io/blog/002-stochastic-calculus.html</guid>
+  <pubDate>Wed, 16 Nov 2022 20:36:32 GMT</pubDate>
+</item>
+<item>
+  <title>Onsager reciprocal relations</title>
+  <dc:creator>Navdeep Rana</dc:creator>
+  <link>https://navdeeprana.github.io/blog/001-onsager-reciprocal-relations.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Onsager reciprocal relations is a general statement about the irreversible processes. ORR are an application of two fundamental laws of equilibrium statistical mechanics to non-equilibrium systems which are not far away from the equilibrium. The two fundamental laws are : Boltzmann Distribution and the principle of time reversal symmetry.</p>
+<section id="examples" class="level2">
+<h2 class="anchored" data-anchor-id="examples">Examples</h2>
+<section id="seeback-and-peltier-effects" class="level3">
+<h3 class="anchored" data-anchor-id="seeback-and-peltier-effects">Seeback and Peltier effects</h3>
+<p>When a temperature gradient is applied across a material, an electric potential difference arises between the two ends. This phenomena is called the Seeback effect. The relation between the temperature gradient <img src="https://latex.codecogs.com/png.latex?%5CDelta%20T"> and the potential difference <img src="https://latex.codecogs.com/png.latex?%5CDelta%20V"> is [ V = - S T, ] where <img src="https://latex.codecogs.com/png.latex?S"> is the Seeback coefficient. The opposite phenomena, where a potential difference sets up a temperature gradient in the system is called the Peltier effect. [ = (_A - _B) I ] The Seeback and Peltier coefficients are related to each other as [ = T S ]</p>
+</section>
+<section id="interacting-molecular-species" class="level3">
+<h3 class="anchored" data-anchor-id="interacting-molecular-species">Interacting molecular species</h3>
+<p>Consider two interacting non-conserved order-parameter fields <img src="https://latex.codecogs.com/png.latex?%5Cphi_%7B1%7D(%5Csymbf%7Br%7D,t)"> and <img src="https://latex.codecogs.com/png.latex?%5Cphi_%7B2%7D(%5Csymbf%7Br%7D,t)"> with the following Landau-Ginzburg free energy form <img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Balign%7D%5Clabel%7Beq:fe%7D%0A%20%20%20%20%5Cmathcal%7BF%7D%20=%20%5Cint%20d%5E%7Bd%7Dr%20%5Cleft%5B%0A%20%20%20%20%20%20%20%20%5Cfrac%7Ba%7D%7B2%7D%5Cleft(%5Cphi_%7B1%7D%5E%7B2%7D%20+%20%5Cphi_%7B2%7D%5E%7B2%7D%5Cright)%0A%20%20%20%20%20%20%20%20+%20%5Cfrac%7Bb%7D%7B4%7D%5Cleft(%5Cphi_%7B1%7D%5E%7B4%7D%20+%20%5Cphi_%7B4%7D%5E%7B2%7D%5Cright)%0A%20%20%20%20%20%20%20%20+%20%5Cfrac%7BK%7D%7B2%7D%5Cleft(%7C%5Cnabla%5Cphi_%7B1%7D%7C%5E%7B2%7D%20+%20%7C%5Cnabla%5Cphi_%7B2%7D%7C%5E%7B2%7D%5Cright)%0A%20%20%20%20%20%20%20%20+%20%5Cchi%20%5Cphi_%7B1%7D%5Cphi_%7B2%7D%0A%20%20%20%20%5Cright%5D,%0A%5Cend%7Balign%7D"> where <img src="https://latex.codecogs.com/png.latex?%5Cchi%5Cphi_%7B1%7D%5Cphi_%7B2%7D"> is the interaction term. Further, we have chosen identical doubled well potential for both <img src="https://latex.codecogs.com/png.latex?%5Cphi_%7B1%7D"> and <img src="https://latex.codecogs.com/png.latex?%5Cphi_%7B2%7D">. In principle, the exact form of the potential could vary, which can be modeled via choosing different <img src="https://latex.codecogs.com/png.latex?a"> and <img src="https://latex.codecogs.com/png.latex?b"> for <img src="https://latex.codecogs.com/png.latex?%5Cphi_%7B1%7D"> and <img src="https://latex.codecogs.com/png.latex?%5Cphi_%7B2%7D">. The equations of motion for <img src="https://latex.codecogs.com/png.latex?%5Cphi_%7Bi%7D">’s are <img src="https://latex.codecogs.com/png.latex?%5Cdot%7B%5Cphi_%7Bi%7D%7D%20=%0A-%5Cfrac%7B%5Cdelta%20F%7D%7B%5Cdelta%20%5Cphi_%7Bi%7D%7D"> implies <img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Balign%7D%5Clabel%7Beq:phi_dynamics%7D%0A%20%20%20%20%5Cdot%7B%5Cphi_%7B1%7D%7D%20=%20-%5Cfrac%7B%5Cdelta%20F%7D%7B%5Cdelta%20%5Cphi_%7B1%7D%7D%20&amp;=%20K%20%5Cnabla%5E%7B2%7D%5Cphi_%7B1%7D%20-%20%5Cleft(a%20+%20b%20%5Cphi_%7B1%7D%5E%7B2%7D%5Cright)%5Cphi_%7B1%7D%20-%20%5Cchi%20%5Cphi_%7B2%7D%5C%5C%0A%20%20%20%20%5Cdot%7B%5Cphi_%7B2%7D%7D%20=%20-%5Cfrac%7B%5Cdelta%20F%7D%7B%5Cdelta%20%5Cphi_%7B2%7D%7D%20&amp;=%20K%20%5Cnabla%5E%7B2%7D%5Cphi_%7B2%7D%20-%20%5Cleft(a%20+%20b%20%5Cphi_%7B2%7D%5E%7B2%7D%5Cright)%5Cphi_%7B2%7D%20-%20%5Cchi%20%5Cphi_%7B1%7D,%0A%5Cend%7Balign%7D"> where the coefficient of the cross terms <img src="https://latex.codecogs.com/png.latex?%5Cchi"> is the same.</p>
+</section>
+<section id="liquid-crystals" class="level3">
+<h3 class="anchored" data-anchor-id="liquid-crystals">Liquid Crystals</h3>
+</section>
+</section>
+<section id="proof" class="level2">
+<h2 class="anchored" data-anchor-id="proof">Proof</h2>
+<p>Consider a statistical system described by a set of <img src="https://latex.codecogs.com/png.latex?N"> variables <img src="https://latex.codecogs.com/png.latex?%5Cleft%5C%7Bx_%7Bi%7D;~i%20=%0A1,2,%5Cldots,N%5Cright%5C%7D">, with <img src="https://latex.codecogs.com/png.latex?x_i%20%5Cequiv%20x_i%5E%7B%5Ccirc%7D"> at the equilibrium. If the system is perturbed to a state that is not far from the equilibrium, it will relax back to it’s equilibrium state, setting up fluxes for various <img src="https://latex.codecogs.com/png.latex?%5Cleft%5C%7Bx_%7Bi%7D%5Cright%5C%7D">. Assuming that we are not far away from the equilibrium, we can write down the following linear flux-force relation <img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Balign%7D%5Clabel%7Beq:forceflux%7D%0A%20%20%20%20%5Cdot%7Bx_%7Bi%7D%7D%20=%20%5CGamma_%7Bij%7D%20X_%7Bj%7D,%0A%5Cend%7Balign%7D"> we will shortly describe what <img src="https://latex.codecogs.com/png.latex?X_%7Bj%7D"> are. We are interested in calculating average values of various quantities, for example <img src="https://latex.codecogs.com/png.latex?x_%7Bi%7D">, <img src="https://latex.codecogs.com/png.latex?x_%7Bi%7D%20X_%7Bj%7D">. Since we are not far from equilibrium and the system is relaxing towards its equilibrium state, we can compute these averages using the machinery of equilibrium statistical mechanics. Essentially, the probability of a fluctuation which takes the system out of equilibrium is proportional to the number of microstates accessible by that fluctuation i.e.&nbsp;<img src="https://latex.codecogs.com/png.latex?%20P(%5Cleft%5C%7Bx_%7Bi%7D%5Cright%5C%7D)%20%5Cpropto%20%5COmega(%5Cleft%5C%7Bx_%7Bi%7D%5Cright%5C%7D)."> Using the Boltzmann relation <img src="https://latex.codecogs.com/png.latex?S%20=%20k%20%5Cln%7B%5COmega%7D">, we get <img src="https://latex.codecogs.com/png.latex?P%5Cleft(%5Cleft%5C%7Bx_%7Bi%7D%5Cright%5C%7D%5Cright)%20%5Cpropto%20e%5E%7B%5CDelta%20S/k%7D"> where <img src="https://latex.codecogs.com/png.latex?%5CDelta%20S"> is the change in entropy. We have <img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Balign%7D%0A%20%20%20%20%5CDelta%20S%20&amp;=%20S%5Cleft(x_%7Bi%7D%5Cright)%20-%20S%5Cleft(x%5E%7B%5Ccirc%7D_%7Bi%7D%5Cright)%20%5C%5C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20&amp;=%20%5Cleft(%5Cfrac%7B%5Cpartial%20S%7D%7B%5Cpartial%20x_%7Bi%7D%7D%5Cright)_%7Bx_%7Bi%7D=x_%7Bi%7D%5E%7B%5Ccirc%7D%7D%5CDelta%20x_%7Bi%7D%20%5C%5C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20&amp;+%20%5Cfrac%7B1%7D%7B2%7D%5Cleft(%5Cfrac%7B%5Cpartial%5E%7B2%7D%20S%7D%7B%5Cpartial%20x_%7Bi%7Dx_%7Bj%7D%7D%5Cright)_%7Bx_%7Bi,j%7D=x_%7Bi,j%7D%5E%7B%5Ccirc%7D%7D%5CDelta%20x_%7Bi%7D%20%5CDelta%20x_%7Bj%7D,%0A%5Cend%7Balign%7D"> where <img src="https://latex.codecogs.com/png.latex?%5CDelta%20x_%7Bi%7D%20=%20x_%7Bi%7D%20-%20x_%7Bi%7D%5E%7B%5Ccirc%7D">. Since the entropy is maximum at the equilibrium, the first derivative vanishes. We then have <img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Balign%7D%5Clabel%7Beq:deltaS%7D%0A%20%20%20%20%5CDelta%20S%20&amp;=%20-%5Cbeta_%7Bij%7D%5CDelta%20x_%7Bi%7D%20%5CDelta%20x_%7Bj%7D,%0A%5Cend%7Balign%7D"> where we have defined <img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Balign%7D%0A%20%20%20%20%5Cbeta_%7Bij%7D%20=%20-%5Cbeta_%7Bji%7D%20%5Cequiv%20%5Cfrac%7B1%7D%7B2%7D%5Cleft(%5Cfrac%7B%5Cpartial%5E%7B2%7D%20S%7D%7B%5Cpartial%20x_%7Bi%7Dx_%7Bj%7D%7D%5Cright)_%7Bx_%7Bi,j%7D=x_%7Bi,j%7D%5E%7B%5Ccirc%7D%7D%0A%5Cend%7Balign%7D"> From <img src="https://latex.codecogs.com/png.latex?%5Ceqref%7Beq:deltaS%7D">, the driving force is defined as <img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Balign%7D%0A%20%20%20%20X_%7Bi%7D%20=%20%5Clim_%7B%5CDelta%20x_%7Bi%7D%20%5Crightarrow%200%7D%20%5Cfrac%7B%5CDelta%20S%7D%7B%5CDelta%20x_%7Bi%7D%7D%20=%20-%20%5Cbeta_%7Bij%7D%5CDelta%20x_%7Bj%7D%0A%5Cend%7Balign%7D"></p>
+<p>We have Q: Why can you still use the Boltzmann average here? <img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Balign%7D%0A%20%20%20%20%5Cleft%3C%20x_%7Bi%7D%20X_%7Bj%7D%5Cright%3E=%5Cfrac%7B%5Cint_%7B-%5Cinfty%7D%5E%7B%5Cinfty%7Dx_%7Bi%7D%20X_%7Bj%7D%20e%5E%7B%5CDelta%20S%20/k%7D%5Cprod_%7Bi%7D%20d%20x_%7Bi%7D%7D%7B%5Cint_%7B-%5Cinfty%7D%5E%7B%5Cinfty%7D%20e%5E%7B%5CDelta%20S%20/k%7D%20%5Cprod_%7Bi%7D%20d%20x_%7Bi%7D%7D%0A%5Cend%7Balign%7D"> <img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Balign%7D%5Clabel%7Beq:avexi%7D%0A%20%20%20%20%5Cleft%3C%20x_%7Bi%7D%5Cright%3E=x_%7Bi%7D%5E%7B%5Ccirc%7D=%5Cfrac%7B%5Cint_%7B-%5Cinfty%7D%5E%7B%5Cinfty%7Dx_%7Bi%7D%20e%5E%7B%5CDelta%20S%20/k%7D%5Cprod_%7Bi%7D%20d%20x_%7Bi%7D%7D%7B%5Cint_%7B-%5Cinfty%7D%5E%7B%5Cinfty%7D%20e%5E%7B%5CDelta%20S%20/k%7D%20%5Cprod_%7Bi%7D%20d%20x_%7Bi%7D%7D%0A%5Cend%7Balign%7D"> Differentiating <img src="https://latex.codecogs.com/png.latex?%5Ceqref%7Beq:avexi%7D"> with respect to <img src="https://latex.codecogs.com/png.latex?x_%7Bj%7D%5E%7B%5Ccirc%7D"> we arrive at</p>
+<p><img src="https://latex.codecogs.com/png.latex?%5Cleft%3C%20x_%7Bi%7D%20X_%7Bj%7D%5Cright%3E=-k%20%5Cdelta_%7Bij%7D"></p>
+<p>Q: What is the point of time flow when it is irreversible. Or reversible? From time-reversibility and homogeneity we have</p>
+<p><img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Balign%7D%5Clabel%7Beq:avexi%7D%0A%20%20%20%20%5Cleft%3Cx_%7Bi%7D(t)x_%7Bj%7D(t+s)%5Cright%3E%0A%20%20%20%20%20%20%20%20&amp;=%20%5Cleft%3Cx_%7Bi%7D(t)x_%7Bj%7D(t-s)%20%5Cright%3E%20%5C%5C%0A%20%20%20%20%20%20%20%20&amp;=%20%5Cleft%3Cx_%7Bi%7D(t+s)x_%7Bj%7D(t)%20%5Cright%3E%0A%5Cend%7Balign%7D"></p>
+<p>Subtracting <img src="https://latex.codecogs.com/png.latex?%5Cleft%3Cx_%7Bi%7D(t)x_%7Bj%7D(t)%5Cright%3E"> from both sides and taking the limit <img src="https://latex.codecogs.com/png.latex?s%5Crightarrow0"> we get the following</p>
+<p><img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Balign%7D%0A%20%20%20%20%5Clim_%7Bs%5Crightarrow0%7D%5Cleft%3Cx_%7Bi%7D(t)%5Cleft%5Bx_%7Bj%7D(t+s)-x_%7Bj%7D(t)%5Cright%5D%5Cright%3E%0A%20%20%20%20&amp;=%20%5Clim_%7Bs%5Crightarrow0%7D%5Cleft%3C%5Cleft%5Bx_%7Bi%7D(t+s)-x_%7Bi%7D(t)%5Cright%5Dx_%7Bj%7D(t)%5Cright%3E%20%5C%5C%0A%20%20%20%20%5Cleft%3Cx_%7Bi%7D(t)%5Cdot%7Bx_%7Bj%7D%7D(t)%5Cright%3E%20&amp;=%20%5Cleft%3C%5Cdot%7Bx_%7Bi%7D%7D(t)x_%7Bj%7D(t)%20%5Cright%3E%20%5C%5C%0A%5Cend%7Balign%7D"> Using <img src="https://latex.codecogs.com/png.latex?%5Ceqref%7Beq:forceflux%7D"> we arrive at <img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Balign%7D%5Clabel%7Beq:trsresult%7D%0A%20%20%20%20%5CGamma_%7Bjl%7D%5Cleft%3Cx_%7Bi%7D(t)X_%7Bl%7D(t)%5Cright%3E%20&amp;=%20%5CGamma_%7Bil%7D%5Cleft%3Cx_%7Bj%7D(t)X_%7Bl%7D(t)%5Cright%3E%20%5C%5C%0A%5Cend%7Balign%7D"></p>
+<p>Time reversibility will only take us this far, to proceed further, we need to compute <img src="https://latex.codecogs.com/png.latex?%5Cleft%3Cx_%7Bi%7D(t)X_%7Bj%7D(t)%5Cright%3E">.Using the above expression in <img src="https://latex.codecogs.com/png.latex?%5Ceqref%7Beq:trsresult%7D"> we get <img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Balign%7D%5Clabel%7Beq:avexi%7D%0A%20%20%20%20%5CGamma_%7Bij%7D%20=%20%5CGamma_%7Bji%7D,%0A%5Cend%7Balign%7D"> which are the Onsager Reciprocal relations.</p>
+<section id="onsager-symmetry-relations-as-a-fluctuation-dissipation-theorem" class="level3">
+<h3 class="anchored" data-anchor-id="onsager-symmetry-relations-as-a-fluctuation-dissipation-theorem">Onsager Symmetry relations as a Fluctuation-Dissipation Theorem</h3>
+<p>Since the Symmetry of the kinetic coefficients is derived from the fundamental hypothesis of the equilibrium statistical mechanics. It can be viewed as a relation between the systematic behaviour of the system to a Fluctuation with the random part. To elaborate, the admittance is derived from the properties of the fluctuations.</p>
+</section>
+<section id="minimal-way-to-break-orr" class="level3">
+<h3 class="anchored" data-anchor-id="minimal-way-to-break-orr">Minimal way to break ORR</h3>
+<p>Let’s add general linear terms to the equations of motion of <img src="https://latex.codecogs.com/png.latex?%5Cphi_%7B1%7D"> and <img src="https://latex.codecogs.com/png.latex?%5Cphi_%7B2%7D"> <img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Balign%7D%5Clabel%7Beq:fe%7D%0A%20%20%20%20%5Cdot%7B%5Cphi_%7B1%7D%7D%20&amp;=%20K%20%5Cnabla%5E%7B2%7D%5Cphi_%7B1%7D%20-%20%5Cleft(a%20+%20b%20%5Cphi_%7B1%7D%5E%7B2%7D%5Cright)%5Cphi_%7B1%7D%20-%20%5Cchi%20%5Cphi_%7B2%7D%20+%20A%20%5Cphi_%7B1%7D%20+%20B%20%5Cphi_%7B2%7D%5C%5C%0A%20%20%20%20%5Cdot%7B%5Cphi_%7B2%7D%7D%20&amp;=%20K%20%5Cnabla%5E%7B2%7D%5Cphi_%7B2%7D%20-%20%5Cleft(a%20+%20b%20%5Cphi_%7B2%7D%5E%7B2%7D%5Cright)%5Cphi_%7B2%7D%20-%20%5Cchi%20%5Cphi_%7B1%7D%20+%20C%20%5Cphi_%7B1%7D%20+%20D%20%5Cphi_%7B2%7D.%0A%5Cend%7Balign%7D"> Since all our coefficients are phenomenological, we can combine the <img src="https://latex.codecogs.com/png.latex?A,D"> terms with the <img src="https://latex.codecogs.com/png.latex?a"> terms and rewrite the equations as <img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Balign%7D%5Clabel%7Beq:fe%7D%0A%20%20%20%20%5Cdot%7B%5Cphi_%7B1%7D%7D%20&amp;=%20K%20%5Cnabla%5E%7B2%7D%5Cphi_%7B1%7D%20-%20%5Cleft(a_%7B1%7D%20+%20b%20%5Cphi_%7B1%7D%5E%7B2%7D%5Cright)%5Cphi_%7B1%7D%20+%20%5Cleft(-%5Cchi%20+%20B%5Cright)%20%5Cphi_%7B2%7D%20%5C%5C%0A%20%20%20%20%5Cdot%7B%5Cphi_%7B2%7D%7D%20&amp;=%20K%20%5Cnabla%5E%7B2%7D%5Cphi_%7B2%7D%20-%20%5Cleft(a_%7B2%7D%20+%20b%20%5Cphi_%7B2%7D%5E%7B2%7D%5Cright)%5Cphi_%7B2%7D%20+%20%5Cleft(-%5Cchi%20+%20C%5Cright)%20%5Cphi_%7B1%7D,%0A%5Cend%7Balign%7D"> where <img src="https://latex.codecogs.com/png.latex?a_%7B1%7D%20=%20a%20+%20A"> and <img src="https://latex.codecogs.com/png.latex?a_%7B2%7D%20=%20a%20+%20D">. Further, rewriting in terms of <img src="https://latex.codecogs.com/png.latex?%5Coverline%7B%5Cchi%7D%20=%20-%5Cchi%20+%20%5Cfrac%7BB%7D%7B2%7D%20+%0A%5Cfrac%7BC%7D%7B2%7D"> and <img src="https://latex.codecogs.com/png.latex?%5Calpha%20=%20%5Cfrac%7BB%7D%7B2%7D%20-%20%5Cfrac%7BC%7D%7B2%7D">, we get <img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Balign%7D%5Clabel%7Beq:fe%7D%0A%20%20%20%20%5Cdot%7B%5Cphi_%7B1%7D%7D%20&amp;=%20K%20%5Cnabla%5E%7B2%7D%5Cphi_%7B1%7D%20+%20%5Cleft(a_%7B1%7D%20+%20b%20%5Cphi_%7B1%7D%5E%7B2%7D%5Cright)%5Cphi_%7B1%7D%20+%20%5Cleft(%5Coverline%7B%5Cchi%7D%20+%20%5Calpha%5Cright)%20%5Cphi_%7B2%7D%20%5C%5C%0A%20%20%20%20%5Cdot%7B%5Cphi_%7B2%7D%7D%20&amp;=%20K%20%5Cnabla%5E%7B2%7D%5Cphi_%7B2%7D%20+%20%5Cleft(a_%7B2%7D%20+%20b%20%5Cphi_%7B2%7D%5E%7B2%7D%5Cright)%5Cphi_%7B2%7D%20+%20%5Cleft(%5Coverline%7B%5Cchi%7D%20-%20%5Calpha%5Cright)%20%5Cphi_%7B1%7D.%0A%5Cend%7Balign%7D"> Notice that the structure of the terms except the <img src="https://latex.codecogs.com/png.latex?%5Calpha"> terms is exactly identical to <img src="https://latex.codecogs.com/png.latex?%5Ceqref%7Beq:phi_dynamics%7D">. Thus, the minimal way to break the ORR relations for systems which are amenable to a Landau-Ginzburg like free energy description is by adding antisymmetric terms.</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <guid>https://navdeeprana.github.io/blog/001-onsager-reciprocal-relations.html</guid>
+  <pubDate>Tue, 15 Nov 2022 17:14:13 GMT</pubDate>
+</item>
+<item>
+  <title>Designing a simulation</title>
+  <dc:creator>Navdeep Rana</dc:creator>
+  <link>https://navdeeprana.github.io/blog/000-designing-a-simulation.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+</section>
+<section id="model" class="level1">
+<h1>Model</h1>
+<p>As a test case, we will consider the FKPP equation</p>
+<p><img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Balign%7D%0A%5Cpartial_t%20u%20=%20D%20%5Cnabla%5E2%20u%20+%20%5Cgamma%20u%20%5Cleft(1%20-%20%5Cfrac%7Bu%7D%7BZ%7D%20%5Cright),%0A%5Cend%7Balign%7D"> where <img src="https://latex.codecogs.com/png.latex?u"> is a density field, <img src="https://latex.codecogs.com/png.latex?D"> is the diffusion coefficient, <img src="https://latex.codecogs.com/png.latex?%5Cgamma"> is the time scale governing the growth rate and <img src="https://latex.codecogs.com/png.latex?Z"> is the carrying capacity. It is ideal to convert the dimensional equation <img src="https://latex.codecogs.com/png.latex?%5Ceqref%7Beq:fkpp%7D"> into a dimensionless form by using the following transformations <img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Balign%7D%0Au'%20%5Crightarrow%20Z%20u,~t'%20%5Crightarrow%20%5Cfrac%7B1%7D%7B%5Cgamma%7D%20t,~l'%20%5Crightarrow%20%5Csqrt%7B%5Cfrac%7BD%7D%7B%5Cgamma%7D%7D%20l,%0A%5Cend%7Balign%7D"> which gives us the following equation <img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Balign%7D%0A%5Cpartial_t%20u%20=%20%5Cnabla%5E2%20u%20+%20u%20%5Cleft(1%20-%20u%20%5Cright)%20%5Clabel%7Beq:fkpp%7D,%0A%5Cend%7Balign%7D"> where we have ignored prime indices for brevity. Surprisingly, with proper choice of units, there are no free parameters left in <img src="https://latex.codecogs.com/png.latex?%5Ceqref%7Beq:fkpp%7D">.</p>
+</section>
+<section id="elements-of-a-numerical-simulation" class="level1">
+<h1>Elements of a numerical simulation</h1>
+<p>A typical numerical simulation of a partial differential equation consists of the following parts</p>
+<ul>
+<li><p><strong>A grid or a domain</strong> on which the equation lives in. Our analytical equation is valid for a certain domain with particular boundary conditions. The grid is the discretized translation of the same. In liu of simplicity, we are going to assume a Cartesian grid with periodic or dirichlet boundary conditions.</p></li>
+<li><p>Variables</p></li>
+<li><p><strong>Parameters</strong> Given an equation in its dimensional or dimensionless form, the parameters, for example <img src="https://latex.codecogs.com/png.latex?D,~%5Cgamma,Z"> for <img src="https://latex.codecogs.com/png.latex?%5Ceqref%7Beq:fkpp%7D"> or no parameters for <img src="https://latex.codecogs.com/png.latex?%5Ceqref%7Beq:fkpp%7D"> along with initial and boundary conditions determine its evolution. Typically, parameters stay constant throughout a simultion. We can either use a <code>struct</code> or a set of <code>NamedTuple</code> to define these parameters. For example we could do something like</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb1-1">p <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> (D <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>., γ <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>., Z <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>.)</span></code></pre></div></div></li>
+<li><p>A time stepper, which takes care of numerically integrating the equations</p></li>
+<li><p>Housekeeping routines, which do grunt work</p></li>
+<li><p>Input/Output and data analysis.</p></li>
+</ul>
+<section id="grid" class="level2">
+<h2 class="anchored" data-anchor-id="grid">Grid</h2>
+<p>We begin by creating an abstract grid type with one type parameter, which defines the precision of data residing on the grid. In our case, we are dealing with a real density field so our data could be a <code>Float</code>. However, for different physical models the precision or base data type could be different. For example, for Ising model, the field is a Spin field, which is easily represented by <code>Bool</code> or a <code>Int8</code>.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb2-1"><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">abstract type</span> AbstractGrid{T} <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">end</span></span></code></pre></div></div>
+<p>What makes up a grid? Well we need to know its extents, the step size, the range of x, y values possible. You can ask, what happened to the boundary conditions, and I would argue that it is a property of the data/variables that reside on the grid, not the grid itself so we take care of it while handling data</p>
+</section>
+</section>
+<section id="variables" class="level1">
+<h1>Variables</h1>
+<p>Variables are what make up the simulation.</p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://navdeeprana.github.io/blog/000-designing-a-simulation.html</guid>
+  <pubDate>Mon, 14 Nov 2022 06:29:55 GMT</pubDate>
+</item>
+</channel>
+</rss>
