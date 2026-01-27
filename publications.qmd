@@ -6,7 +6,7 @@ Here's a list of my publications. You can also find an auto populated list of my
 
 Total Publications : 14, Published : 12, Under review : 2, **\*** : Equal first author
 
-- **Efficient Pseudo-spectral Algorithms for Statistical Field Theories**\
+- Efficient Pseudo-spectral Algorithms for Statistical Field Theories\
   Martin Kjøllesdal Johnsrud and **NR**\
   [arXiv 2511.22510 (2025)](https://arxiv.org/abs/2511.22510)
 

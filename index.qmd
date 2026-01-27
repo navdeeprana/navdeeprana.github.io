@@ -1,12 +1,12 @@
 ---
 title: "Navdeep Rana"
 ---
+I am a theoretical physicist and my research interests lie broadly in the field of soft condensed matter physics.
+In particular, I am interested in the physics of active matter, turbulence, population dynamics of growing bacterial colonies, and high-performance computing.
 
-Hi there, I am Navdeep Rana. I am a physicist currently working as a postdoctoral fellow at
-[MPI-DS](https://www.ds.mpg.de/en), Göttingen, Germany. My research interests lie broadly in the field of soft condensed
-matter physics. In particular I am interested in problems related to active matter, turbulence,
-population dynamics of growing bacterial colonies, and high-performance computing. Here is my [CV](cv.qmd)
-and here are my [research interests](research.qmd).
+Currently, I am working as a [DSTrain](https://www.uio.no/dscience/english/dstrain/) postdoctoral fellow at the [Department of Physics](https://www.mn.uio.no/fysikk/english/), University of Oslo.
+
+Here is my [CV](cv.qmd) and here are my [research interests](research.qmd).
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 $\newcommand{bm}[1]{\boldsymbol{#1}}$
