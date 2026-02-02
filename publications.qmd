@@ -6,13 +6,13 @@ Here's a list of my publications. You can also find an auto populated list of my
 
 Total Publications : 14, Published : 12, Under review : 2, **\*** : Equal first author
 
-- Efficient Pseudo-spectral Algorithms for Statistical Field Theories\
+- **Efficient Pseudo-spectral Algorithms for Statistical Field Theories**\
   Martin Kjøllesdal Johnsrud and **NR**\
-  [arXiv 2511.22510 (2025)](https://arxiv.org/abs/2511.22510)
+  [arXiv 2511.22510 (2025)](https://arxiv.org/abs/2511.22510), Under review in PRE
 
 - **Disorder to order transition in 1D nonreciprocal Cahn-Hilliard nodel**\
   **NR** and Ramin Golestanian\
-  [arXiv 2510.11580 (2025)](https://arxiv.org/abs/2510.11580)
+  [arXiv 2510.11580 (2025)](https://arxiv.org/abs/2510.11580), Under review in PRR
 
 - **Instabilities and turbulence in extensile swimmer suspensions**\
   Purnima Jain, **NR**, Roberto Benzi, and Prasad Perlekar.
@@ -20,7 +20,7 @@ Total Publications : 14, Published : 12, Under review : 2, **\*** : Equal first
 
 - **Non-reciprocal mixtures in suspension: the role of hydrodynamic interactions**\
   Giulia Pisegna, **NR**, Ramin Golestanian, and Suropriya Saha.\
-  [arxiv:2501.01330 (2025)](https://arxiv.org/abs/2501.01330)
+  [Physical Review Letters 135, 108301 (2025)](https://doi.org/10.1103/gbg1-lwwt)
 
 - **Enhanced Stability and Chaotic Condensates in Multispecies Nonreciprocal Mixtures**\
   Laya Parkavousi, **NR\***, Ramin Golestanian, and Suropriya Saha.\
