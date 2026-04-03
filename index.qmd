@@ -1,10 +1,10 @@
 ---
 title: "Navdeep Rana"
 ---
-I am a theoretical physicist and my research interests lie broadly in the field of soft condensed matter physics.
-In particular, I am interested in the physics of active matter, turbulence, population dynamics of growing bacterial colonies, and high-performance computing.
+I am a theoretical physicist  research interests lie broadly in the field of soft condensed matter physics.
+In particular, I am interested in the physics of living and active matter, fluid dynamics and turbulence, and high-performance computing.
 
-Currently, I am working as a [DSTrain](https://www.uio.no/dscience/english/dstrain/) postdoctoral fellow at the [Department of Physics](https://www.mn.uio.no/fysikk/english/), University of Oslo.
+Currently, I am a [DSTrain postdoctoral fellow](https://www.uio.no/dscience/english/dstrain/postdoctoral-fellows-call2/navdeep-rana.html) at the [Department of Physics](https://www.mn.uio.no/fysikk/english/), University of Oslo.
 
 Here is my [CV](cv.qmd) and here are my [research interests](research.qmd).
 
