@@ -32,7 +32,7 @@
     "href": "index.html",
     "title": "Navdeep Rana",
     "section": "",
-    "text": "I am a theoretical physicist and my research interests lie broadly in the field of soft condensed matter physics. In particular, I am interested in the physics of active matter, turbulence, population dynamics of growing bacterial colonies, and high-performance computing.\nCurrently, I am working as a DSTrain postdoctoral fellow at the Department of Physics, University of Oslo.\nHere is my CV and here are my research interests.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites. \\(\\newcommand{bm}[1]{\\boldsymbol{#1}}\\)"
+    "text": "I am a theoretical physicist research interests lie broadly in the field of soft condensed matter physics. In particular, I am interested in the physics of living and active matter, fluid dynamics and turbulence, and high-performance computing.\nCurrently, I am a DSTrain postdoctoral fellow at the Department of Physics, University of Oslo.\nHere is my CV and here are my research interests.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites. \\(\\newcommand{bm}[1]{\\boldsymbol{#1}}\\)"
   },
   {
     "objectID": "publications.html",
